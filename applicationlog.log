@@ -1,0 +1,24 @@
+2023-09-16 17:06:15.882  INFO 12516 --- [main] c.application.crud.crud.CrudApplication  : Starting CrudApplication using Java 1.8.0_202 on DESKTOP-PQKRE97 with PID 12516 (C:\Users\srikaran\Desktop\crud\target\classes started by srikaran in C:\Users\srikaran\Desktop\crud)
+2023-09-16 17:06:15.890  INFO 12516 --- [main] c.application.crud.crud.CrudApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-09-16 17:06:16.774  INFO 12516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-16 17:06:16.851  INFO 12516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2023-09-16 17:06:17.487  INFO 12516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-16 17:06:17.500  INFO 12516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-16 17:06:17.501  INFO 12516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-16 17:06:17.712  INFO 12516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-16 17:06:17.713  INFO 12516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1764 ms
+2023-09-16 17:06:18.089  INFO 12516 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-16 17:06:18.190  INFO 12516 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-16 17:06:18.417  INFO 12516 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-16 17:06:18.538  INFO 12516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-16 17:06:19.049  INFO 12516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-16 17:06:19.084  INFO 12516 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-09-16 17:06:19.831  INFO 12516 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-16 17:06:19.842  INFO 12516 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-16 17:06:20.365  WARN 12516 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-16 17:06:21.128  INFO 12516 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-09-16 17:06:21.218  INFO 12516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-16 17:06:21.239  INFO 12516 --- [main] c.application.crud.crud.CrudApplication  : Started CrudApplication in 5.79 seconds (JVM running for 6.356)
+2023-09-16 17:06:21.916  INFO 12516 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-16 17:06:21.916  INFO 12516 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-16 17:06:21.918  INFO 12516 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
